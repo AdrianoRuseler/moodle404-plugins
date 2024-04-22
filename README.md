@@ -275,10 +275,6 @@ git submodule add -b master https://bitbucket.org/dw8/moodle-format_tiles.git co
 git submodule add -b FORMAT_ETASK_24_STABLE https://gitlab.com/drlikm/format_etask.git course/format/etask
 ```
 
-- https://github.com/moodleworkplace/moodle-format_wplist
-```bash
-git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
-```
 ### THEME
 
 - https://github.com/gjbarnard/moodle-theme_adaptable
@@ -328,15 +324,9 @@ git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/
 ```
 
 
-
-- https://github.com/moodleou/moodle-report_customsql
+- https://github.com/moodleworkplace/moodle-format_wplist
 ```bash
-git submodule add -b main https://github.com/moodleou/moodle-report_customsql.git report/customsql
-```
-
-- https://github.com/moodleuulm/moodle-local_sandbox
-```bash
-git submodule add -b master https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
+git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
 ```
 
 ## Wait for it
