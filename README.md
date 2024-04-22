@@ -2,11 +2,11 @@
 
 ## Moodle Update
 ```bash
-export MDLBRANCH="MOODLE_404_STABLE"
 export MDLREPO="https://github.com/moodle/moodle.git"
-export PLGBRANCH="main"
-export PLGREPO="https://github.com/AdrianoRuseler/moodle404-plugins.git"
+export MDLBRANCH="MOODLE_404_STABLE"  # GIT Branch for moodle core
 export MDLCORE="mdlcore" # Temp folder for moodle core
+export PLGREPO="https://github.com/AdrianoRuseler/moodle404-plugins.git"
+export PLGBRANCH="main" # GIT Branch for moodle plugins
 export MDLPLGS="mdlplugins" # Temp folder for moodle plugins
 # Moodle software (For example, everything in server/htdocs/moodle)
 export MDLHOME="path/to/moodle" # TODO!
@@ -96,7 +96,7 @@ cd mod/hvp
 git submodule update --init
 ```
 
-### ATTO
+### ATTO - REMOVED!
 - https://github.com/dthies/moodle-atto_cloze
 ```bash
 git submodule add -b master https://github.com/dthies/moodle-atto_cloze.git lib/editor/atto/plugins/cloze
@@ -111,7 +111,7 @@ git submodule add -b master https://github.com/dthies/moodle-atto_fullscreen.git
 ```bash
 git submodule add -b master https://github.com/moodle-ead/atto_justify.git lib/editor/atto/plugins/justify
 ```
-### TINY
+### TINY - REVIEW!
 - https://github.com/srobotta/moodle-tiny_cloze
 ```bash
 git submodule add -b main https://github.com/srobotta/moodle-tiny_cloze.git lib/editor/tiny/plugins/cloze
@@ -188,12 +188,6 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_oumultirespon
 ```bash
 git submodule add -b master https://gricad-gitlab.univ-grenoble-alpes.fr/bizarda/moodle-qtype_vplquestion.git question/type/vplquestion
 ```
-
-- https://github.com/gbateson/moodle-qtype_ordering
-```bash
-git submodule add -b master https://github.com/gbateson/moodle-qtype_ordering.git question/type/ordering
-```
-
 - https://github.com/moodleou/moodle-qtype_combined
 ```bash
 git submodule add -b main https://github.com/moodleou/moodle-qtype_combined.git question/type/combined
@@ -340,4 +334,11 @@ git submodule add -b master https://github.com/moodle-an-hochschulen/moodle-them
 - https://github.com/vtos/moodle-mod_adaptivequiz
 ```bash
 git submodule add -b MOODLE_400 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
+```
+
+## Added to core
+
+- https://github.com/gbateson/moodle-qtype_ordering
+```bash
+git submodule add -b master https://github.com/gbateson/moodle-qtype_ordering.git question/type/ordering
 ```
