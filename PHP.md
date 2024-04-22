@@ -38,7 +38,7 @@ done
 systemctl reload apache2
 
 ```
-## Config php.ini
+## Config apache .conf
 ```bash
 cd /etc/apache2/sites-available
 PHPVERS='8.3'
