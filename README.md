@@ -339,19 +339,22 @@ git submodule add -b main https://github.com/moodleou/moodle-report_customsql.gi
 git submodule add -b master https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
+## Wait for it
+- https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
+```bash
+git submodule add -b master https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
+```
+
 ## REMOVED
 
 - https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group
 ```bash
 git submodule add -b master https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group.git mod/quiz/report/group
 ```
-- https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
-```bash
-git submodule add -b master https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
-```
+
 - https://github.com/vtos/moodle-mod_adaptivequiz
 ```bash
-git submodule add -b MOODLE_400 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
+git submodule add -b MOODLE_404 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
 ```
 
 ## Added to core
