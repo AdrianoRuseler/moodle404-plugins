@@ -38,3 +38,7 @@
 	path = moodle/mod/scheduler
 	url = https://github.com/bostelm/moodle-mod_scheduler.git
 	branch = master
+[submodule "moodle/mod/subcourse"]
+	path = moodle/mod/subcourse
+	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
+	branch = MOODLE_402_STABLE
