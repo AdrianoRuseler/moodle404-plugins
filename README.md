@@ -272,7 +272,7 @@ git submodule add -b master https://bitbucket.org/dw8/moodle-format_tiles.git co
 
 - https://gitlab.com/drlikm/format_etask
 ```bash
-git submodule add -b master https://gitlab.com/drlikm/format_etask.git course/format/etask
+git submodule add -b FORMAT_ETASK_24_STABLE https://gitlab.com/drlikm/format_etask.git course/format/etask
 ```
 
 - https://github.com/moodleworkplace/moodle-format_wplist
