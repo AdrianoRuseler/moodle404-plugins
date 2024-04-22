@@ -190,3 +190,7 @@
 	path = moodle/course/format/tiles
 	url = https://bitbucket.org/dw8/moodle-format_tiles.git
 	branch = moodle44
+[submodule "moodle/filter/ace_inline"]
+	path = moodle/filter/ace_inline
+	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
+	branch = master
