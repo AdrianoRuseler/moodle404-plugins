@@ -194,3 +194,11 @@
 	path = moodle/filter/ace_inline
 	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
 	branch = master
+[submodule "moodle/plagiarism/turnitin"]
+	path = moodle/plagiarism/turnitin
+	url = https://github.com/turnitin/moodle-plagiarism_turnitin.git
+	branch = master
+[submodule "moodle/plagiarism/turnitinsim"]
+	path = moodle/plagiarism/turnitinsim
+	url = https://github.com/turnitin/moodle-plagiarism_turnitinsim.git
+	branch = develop
