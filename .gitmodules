@@ -86,3 +86,19 @@
 	path = moodle/blocks/grade_me
 	url = https://github.com/remotelearner/moodle-block_grade_me.git
 	branch = MOODLE_401_STABLE
+[submodule "moodle/report/coursesize"]
+	path = moodle/report/coursesize
+	url = https://github.com/catalyst/moodle-report_coursesize.git
+	branch = MOODLE_39_STABLE
+[submodule "moodle/report/benchmark"]
+	path = moodle/report/benchmark
+	url = https://github.com/mikasmart/moodle-report_benchmark.git
+	branch = master
+[submodule "moodle/report/allbackups"]
+	path = moodle/report/allbackups
+	url = https://github.com/catalyst/moodle-report_allbackups.git
+	branch = MOODLE_400_STABLE
+[submodule "moodle/report/customsql"]
+	path = moodle/report/customsql
+	url = https://github.com/moodleou/moodle-report_customsql.git
+	branch = main
