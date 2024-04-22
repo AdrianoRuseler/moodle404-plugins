@@ -96,7 +96,7 @@ cd mod/hvp
 git submodule update --init
 ```
 
-### ATTO
+### ATTO - REMOVED!
 - https://github.com/dthies/moodle-atto_cloze
 ```bash
 git submodule add -b master https://github.com/dthies/moodle-atto_cloze.git lib/editor/atto/plugins/cloze
