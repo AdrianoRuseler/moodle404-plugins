@@ -2,11 +2,11 @@
 
 ## Moodle Update
 ```bash
-export MDLBRANCH="MOODLE_404_STABLE"
 export MDLREPO="https://github.com/moodle/moodle.git"
-export PLGBRANCH="main"
-export PLGREPO="https://github.com/AdrianoRuseler/moodle404-plugins.git"
+export MDLBRANCH="MOODLE_404_STABLE"  # GIT Branch for moodle core
 export MDLCORE="mdlcore" # Temp folder for moodle core
+export PLGREPO="https://github.com/AdrianoRuseler/moodle404-plugins.git"
+export PLGBRANCH="main" # GIT Branch for moodle plugins
 export MDLPLGS="mdlplugins" # Temp folder for moodle plugins
 # Moodle software (For example, everything in server/htdocs/moodle)
 export MDLHOME="path/to/moodle" # TODO!
