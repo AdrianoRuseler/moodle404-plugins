@@ -174,3 +174,7 @@
 	path = moodle/admin/tool/lifecycle
 	url = https://github.com/learnweb/moodle-tool_lifecycle.git
 	branch = master
+[submodule "moodle/enrol/autoenrol"]
+	path = moodle/enrol/autoenrol
+	url = https://github.com/bobopinna/moodle-enrol_autoenrol.git
+	branch = master
