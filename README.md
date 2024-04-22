@@ -30,6 +30,24 @@ echo "Remove tmp files..."
 sudo rm -rf /tmp/$MDLPLGS
 sudo rm -rf /tmp/$MDLCORE
 ```
+## Moodle config.php
+- https://docs.moodle.org/404/en/Configuration_file
+
+``` php
+// Use the following flag to completely disable the installation of plugins
+// (new plugins, available updates and missing dependencies) and related
+// features (such as cancelling the plugin installation or upgrade) via the
+// server administration web interface.
+$CFG->disableupdateautodeploy = true;
+// Disabling update notifications
+$CFG->disableupdatenotifications = true;
+
+// Some administration options allow setting the path to executable files. This can
+// potentially cause a security risk. Set this option to true to disable editing
+// those config settings via the web. They will need to be set explicitly in the
+// config.php file
+$CFG->preventexecpath = true;
+```
 
 ## Plugins List!  TODO!
 
