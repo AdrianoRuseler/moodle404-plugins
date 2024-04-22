@@ -114,21 +114,6 @@ cd mod/hvp
 git submodule update --init
 ```
 
-### ATTO - REMOVED!
-- https://github.com/dthies/moodle-atto_cloze
-```bash
-git submodule add -b master https://github.com/dthies/moodle-atto_cloze.git lib/editor/atto/plugins/cloze
-```
-
-- https://github.com/dthies/moodle-atto_fullscreen
-```bash
-git submodule add -b master https://github.com/dthies/moodle-atto_fullscreen.git lib/editor/atto/plugins/fullscreen
-```
-
-- https://moodle.org/plugins/atto_justify
-```bash
-git submodule add -b master https://github.com/moodle-ead/atto_justify.git lib/editor/atto/plugins/justify
-```
 ### TINY - REVIEW!
 - https://github.com/srobotta/moodle-tiny_cloze
 ```bash
@@ -137,6 +122,16 @@ git submodule add -b main https://github.com/srobotta/moodle-tiny_cloze.git lib/
 - https://github.com/bfh/moodle-tiny_fontcolor
 ```bash
 git submodule add -b master https://github.com/bfh/moodle-tiny_fontcolor.git lib/editor/tiny/plugins/fontcolor
+```
+
+- https://github.com/dthies/moodle-tiny_preview
+```bash
+git submodule add -b main https://github.com/dthies/moodle-tiny_preview.git lib/editor/tiny/plugins/preview
+```
+
+- https://github.com/reskit/moodle-tiny_c4l
+```bash
+git submodule add -b main https://github.com/reskit/moodle-tiny_c4l.git lib/editor/tiny/plugins/tiny_c4l
 ```
 
 ### BLOCK
@@ -346,6 +341,21 @@ git submodule add -b master https://github.com/moodle-an-hochschulen/moodle-them
 ```
 
 ## REMOVED
+
+### ATTO - REMOVED!
+- https://github.com/dthies/moodle-atto_cloze
+```bash
+git submodule add -b master https://github.com/dthies/moodle-atto_cloze.git lib/editor/atto/plugins/cloze
+```
+- https://github.com/dthies/moodle-atto_fullscreen
+```bash
+git submodule add -b master https://github.com/dthies/moodle-atto_fullscreen.git lib/editor/atto/plugins/fullscreen
+```
+- https://moodle.org/plugins/atto_justify
+```bash
+git submodule add -b master https://github.com/moodle-ead/atto_justify.git lib/editor/atto/plugins/justify
+```
+
 
 - https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group
 ```bash
