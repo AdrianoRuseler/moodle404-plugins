@@ -131,7 +131,7 @@ git submodule add -b main https://github.com/dthies/moodle-tiny_preview.git lib/
 
 - https://github.com/reskit/moodle-tiny_c4l
 ```bash
-git submodule add -b main https://github.com/reskit/moodle-tiny_c4l.git lib/editor/tiny/plugins/tiny_c4l
+git submodule add -b main https://github.com/reskit/moodle-tiny_c4l.git lib/editor/tiny/plugins/c4l
 ```
 
 ### BLOCK
