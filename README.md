@@ -267,7 +267,7 @@ git submodule add -b MOODLE_403_STABLE https://github.com/DigiDago/moodle-format
 
 - https://bitbucket.org/dw8/moodle-format_tiles
 ```bash
-git submodule add -b master https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
+git submodule add -b moodle44 https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
 ```
 
 - https://gitlab.com/drlikm/format_etask
