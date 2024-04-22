@@ -42,3 +42,7 @@
 	path = moodle/mod/subcourse
 	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
 	branch = MOODLE_402_STABLE
+[submodule "moodle/mod/book/tool/wordimport"]
+	path = moodle/mod/book/tool/wordimport
+	url = https://github.com/ecampbell/moodle-booktool_wordimport.git
+	branch = master
