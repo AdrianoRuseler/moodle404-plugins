@@ -111,7 +111,7 @@ git submodule add -b master https://github.com/dthies/moodle-atto_fullscreen.git
 ```bash
 git submodule add -b master https://github.com/moodle-ead/atto_justify.git lib/editor/atto/plugins/justify
 ```
-### TINY
+### TINY - REVIEW!
 - https://github.com/srobotta/moodle-tiny_cloze
 ```bash
 git submodule add -b main https://github.com/srobotta/moodle-tiny_cloze.git lib/editor/tiny/plugins/cloze
