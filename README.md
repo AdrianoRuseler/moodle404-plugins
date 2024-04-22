@@ -187,6 +187,11 @@ git submodule add -b main https://github.com/moodleou/moodle-report_customsql.gi
 git submodule add -b main https://github.com/ewallah/moodle-availability_relativedate.git availability/condition/relativedate
 ```
 
+- https://github.com/bdecentgmbh/moodle-availability_sectioncompleted
+```bash
+git submodule add -b main https://github.com/bdecentgmbh/moodle-availability_sectioncompleted.git availability/condition/sectioncompleted
+```
+
 - https://github.com/MFreakNL/moodle-availability_ipaddress
 ```bash
 git submodule add -b master https://github.com/MFreakNL/moodle-availability_ipaddress.git availability/condition/ipaddress
