@@ -10,3 +10,7 @@
 	path = moodle/mod/studentquiz
 	url = https://github.com/frankkoch/moodle-mod_studentquiz.git
 	branch = main
+[submodule "moodle/mod/quizgame"]
+	path = moodle/mod/quizgame
+	url = https://github.com/xow/moodle-mod_quizgame.git
+	branch = master
