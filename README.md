@@ -188,12 +188,6 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_oumultirespon
 ```bash
 git submodule add -b master https://gricad-gitlab.univ-grenoble-alpes.fr/bizarda/moodle-qtype_vplquestion.git question/type/vplquestion
 ```
-
-- https://github.com/gbateson/moodle-qtype_ordering
-```bash
-git submodule add -b master https://github.com/gbateson/moodle-qtype_ordering.git question/type/ordering
-```
-
 - https://github.com/moodleou/moodle-qtype_combined
 ```bash
 git submodule add -b main https://github.com/moodleou/moodle-qtype_combined.git question/type/combined
@@ -340,4 +334,11 @@ git submodule add -b master https://github.com/moodle-an-hochschulen/moodle-them
 - https://github.com/vtos/moodle-mod_adaptivequiz
 ```bash
 git submodule add -b MOODLE_400 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
+```
+
+## Added to core
+
+- https://github.com/gbateson/moodle-qtype_ordering
+```bash
+git submodule add -b master https://github.com/gbateson/moodle-qtype_ordering.git question/type/ordering
 ```
