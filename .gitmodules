@@ -170,10 +170,6 @@
 	path = moodle/enrol/autoenrol
 	url = https://github.com/bobopinna/moodle-enrol_autoenrol.git
 	branch = master
-[submodule "moodle/course/format/softcourse"]
-	path = moodle/course/format/softcourse
-	url = https://github.com/DigiDago/moodle-format_softcourse.git
-	branch = MOODLE_403_STABLE
 [submodule "moodle/course/format/etask"]
 	path = moodle/course/format/etask
 	url = https://gitlab.com/drlikm/format_etask.git
