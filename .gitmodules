@@ -62,10 +62,6 @@
 	path = moodle/blocks/completion_progress
 	url = https://github.com/deraadt/moodle-block_completion_progress.git
 	branch = master
-[submodule "moodle/blocks/dedication"]
-	path = moodle/blocks/dedication
-	url = https://github.com/catalyst/moodle-block_dedication.git
-	branch = MOODLE_400_STABLE
 [submodule "moodle/blocks/sharing_cart"]
 	path = moodle/blocks/sharing_cart
 	url = https://github.com/donhinkelman/moodle-block_sharing_cart.git
