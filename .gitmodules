@@ -202,3 +202,7 @@
 	path = moodle/question/type/vplquestion
 	url = https://gricad-gitlab.univ-grenoble-alpes.fr/moodle-plugins/moodle-qtype_vplquestion.git
 	branch = master
+[submodule "moodle/mod/publication"]
+	path = moodle/mod/publication
+	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
+	branch = MOODLE_403_STABLE
