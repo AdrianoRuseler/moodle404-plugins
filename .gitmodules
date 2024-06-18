@@ -194,3 +194,7 @@
 	path = moodle/mod/publication
 	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
 	branch = MOODLE_403_STABLE
+[submodule "moodle/blocks/grade_me"]
+	path = moodle/blocks/grade_me
+	url = https://github.com/remotelearner/moodle-block_grade_me.git
+	branch = MOODLE_403_STABLE
