@@ -148,7 +148,7 @@ git submodule add -b master https://github.com/deraadt/moodle-block_completion_p
 
 - https://github.com/catalyst/moodle-block_dedication
 ```bash
-git submodule add -b MOODLE_400_STABLE https://github.com/catalyst/moodle-block_dedication.git blocks/dedication
+git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-block_dedication.git blocks/dedication
 ```
 
 - https://github.com/donhinkelman/moodle-block_sharing_cart
