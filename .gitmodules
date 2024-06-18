@@ -194,10 +194,6 @@
 	path = moodle/mod/subcourse
 	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
 	branch = MOODLE_404_STABLE
-[submodule "moodle/blocks/dedication"]
-	path = moodle/blocks/dedication
-	url = https://github.com/catalyst/moodle-block_dedication.git
-	branch = MOODLE_404_STABLE
 [submodule "moodle/question/type/vplquestion"]
 	path = moodle/question/type/vplquestion
 	url = https://gricad-gitlab.univ-grenoble-alpes.fr/moodle-plugins/moodle-qtype_vplquestion.git
