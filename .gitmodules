@@ -22,10 +22,6 @@
 	path = moodle/mod/geogebra
 	url = https://github.com/projectestac/moodle-mod_geogebra.git
 	branch = master
-[submodule "moodle/mod/publication"]
-	path = moodle/mod/publication
-	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
-	branch = MOODLE_403_STABLE
 [submodule "moodle/mod/scheduler"]
 	path = moodle/mod/scheduler
 	url = https://github.com/bostelm/moodle-mod_scheduler.git
