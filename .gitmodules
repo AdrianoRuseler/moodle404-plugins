@@ -202,3 +202,7 @@
 	path = moodle/mod/subcourse
 	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
 	branch = MOODLE_404_STABLE
+[submodule "moodle/blocks/dedication"]
+	path = moodle/blocks/dedication
+	url = https://github.com/catalyst/moodle-block_dedication.git
+	branch = MOODLE_404_STABLE
