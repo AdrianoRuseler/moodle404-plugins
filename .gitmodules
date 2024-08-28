@@ -202,3 +202,7 @@
 	path = moodle/blocks/dedication
 	url = https://github.com/catalyst/moodle-block_dedication.git
 	branch = MOODLE_404_STABLE
+[submodule "moodle/mod/publication"]
+	path = moodle/mod/publication
+	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
+	branch = MOODLE_404_STABLE
