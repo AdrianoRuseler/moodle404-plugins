@@ -46,10 +46,6 @@
 	path = moodle/lib/editor/tiny/plugins/preview
 	url = https://github.com/dthies/moodle-tiny_preview.git
 	branch = main
-[submodule "moodle/lib/editor/tiny/plugins/c4l"]
-	path = moodle/lib/editor/tiny/plugins/c4l
-	url = https://github.com/reskit/moodle-tiny_c4l.git
-	branch = main
 [submodule "moodle/blocks/xp"]
 	path = moodle/blocks/xp
 	url = https://github.com/FMCorz/moodle-block_xp.git
