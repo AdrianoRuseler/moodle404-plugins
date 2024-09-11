@@ -198,3 +198,7 @@
 	path = moodle/mod/publication
 	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
 	branch = MOODLE_404_STABLE
+[submodule "moodle/availability/condition/ipaddress"]
+	path = moodle/availability/condition/ipaddress
+	url = https://github.com/MFreakNL/moodle-availability_ipaddress.git
+	branch = main
