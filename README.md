@@ -129,11 +129,6 @@ git submodule add -b master https://github.com/bfh/moodle-tiny_fontcolor.git lib
 git submodule add -b main https://github.com/dthies/moodle-tiny_preview.git lib/editor/tiny/plugins/preview
 ```
 
-- https://github.com/reskit/moodle-tiny_c4l
-```bash
-git submodule add -b main https://github.com/reskit/moodle-tiny_c4l.git lib/editor/tiny/plugins/c4l
-```
-
 ### BLOCK
 
 - https://github.com/FMCorz/moodle-block_xp
@@ -194,7 +189,7 @@ git submodule add -b main https://github.com/bdecentgmbh/moodle-availability_sec
 
 - https://github.com/MFreakNL/moodle-availability_ipaddress
 ```bash
-git submodule add -b master https://github.com/MFreakNL/moodle-availability_ipaddress.git availability/condition/ipaddress
+git submodule add -b main https://github.com/MFreakNL/moodle-availability_ipaddress.git availability/condition/ipaddress
 ```
 ### QTYPE
 - https://github.com/moodleou/moodle-qtype_oumultiresponse
@@ -323,7 +318,6 @@ git submodule add -b master https://github.com/udima-university/moodle-mod_jitsi
 git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/auto
 ```
 
-
 - https://github.com/moodleworkplace/moodle-format_wplist
 ```bash
 git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
@@ -360,6 +354,11 @@ git submodule add -b master https://gitlab.unige.ch/eLearning/moodle/moodle-quiz
 - https://github.com/vtos/moodle-mod_adaptivequiz
 ```bash
 git submodule add -b MOODLE_404 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
+```
+
+- https://github.com/reskit/moodle-tiny_c4l
+```bash
+git submodule add -b main https://github.com/reskit/moodle-tiny_c4l.git lib/editor/tiny/plugins/c4l
 ```
 
 ## Added to core
