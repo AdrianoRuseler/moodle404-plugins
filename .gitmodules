@@ -82,10 +82,6 @@
 	path = moodle/availability/condition/sectioncompleted
 	url = https://github.com/bdecentgmbh/moodle-availability_sectioncompleted.git
 	branch = main
-[submodule "moodle/availability/condition/ipaddress"]
-	path = moodle/availability/condition/ipaddress
-	url = https://github.com/MFreakNL/moodle-availability_ipaddress.git
-	branch = master
 [submodule "moodle/question/type/oumultiresponse"]
 	path = moodle/question/type/oumultiresponse
 	url = https://github.com/moodleou/moodle-qtype_oumultiresponse.git
