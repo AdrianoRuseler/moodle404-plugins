@@ -134,10 +134,6 @@
 	path = moodle/admin/tool/migratehvp2h5p
 	url = https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git
 	branch = main
-[submodule "moodle/admin/tool/lifecycle"]
-	path = moodle/admin/tool/lifecycle
-	url = https://github.com/learnweb/moodle-tool_lifecycle.git
-	branch = master
 [submodule "moodle/enrol/autoenrol"]
 	path = moodle/enrol/autoenrol
 	url = https://github.com/bobopinna/moodle-enrol_autoenrol.git
