@@ -154,10 +154,6 @@
 	path = moodle/plagiarism/turnitinsim
 	url = https://github.com/turnitin/moodle-plagiarism_turnitinsim.git
 	branch = develop
-[submodule "moodle/local/sandbox"]
-	path = moodle/local/sandbox
-	url = https://github.com/moodleuulm/moodle-local_sandbox.git
-	branch = master
 [submodule "moodle/mod/attendance"]
 	path = moodle/mod/attendance
 	url = https://github.com/danmarsden/moodle-mod_attendance.git
