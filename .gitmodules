@@ -198,3 +198,7 @@
 	path = moodle/availability/condition/ipaddress
 	url = https://github.com/MFreakNL/moodle-availability_ipaddress.git
 	branch = main
+[submodule "moodle/enrol/auto"]
+	path = moodle/enrol/auto
+	url = https://github.com/bynare/moodle-enrol_auto.git
+	branch = main
