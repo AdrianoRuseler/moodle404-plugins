@@ -245,6 +245,11 @@ git submodule add -b master https://github.com/Syxton/moodle-tool_coursearchiver
 git submodule add -b main https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git admin/tool/migratehvp2h5p
 ```
 
+- https://github.com/catalyst/moodle-tool_trigger
+```bash
+git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_trigger.git admin/tool/trigger
+```
+
 ### ENROL
 
 - https://github.com/bobopinna/moodle-enrol_autoenrol
