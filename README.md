@@ -113,8 +113,12 @@ git submodule add -b stable https://github.com/h5p/h5p-moodle-plugin.git mod/hvp
 cd mod/hvp
 git submodule update --init
 ```
+- https://github.com/udima-university/moodle-mod_jitsi
+```bash
+git submodule add -b master https://github.com/udima-university/moodle-mod_jitsi.git mod/jitsi
+```
 
-### TINY - REVIEW!
+### TINY
 - https://github.com/srobotta/moodle-tiny_cloze
 ```bash
 git submodule add -b main https://github.com/srobotta/moodle-tiny_cloze.git lib/editor/tiny/plugins/cloze
@@ -247,7 +251,12 @@ git submodule add -b main https://github.com/moodlehq/moodle-tool_migratehvp2h5p
 ```bash
 git submodule add -b master https://github.com/bobopinna/moodle-enrol_autoenrol.git enrol/autoenrol
 ```
+### TO REMOVE:
 
+- https://github.com/bynare/moodle-enrol_auto
+```bash
+git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/auto
+```
 
 ### FORMAT
 
@@ -275,7 +284,7 @@ git submodule add -b main https://github.com/gjbarnard/moodle-theme_adaptable.gi
 
 - https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
 ```bash
-git submodule add -b MOODLE_403_STABLE https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
+git submodule add -b MOODLE_404_STABLE https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
 ```
 
 ###   FILTER
@@ -301,17 +310,6 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 - https://github.com/moodleuulm/moodle-local_sandbox
 ```bash
 git submodule add -b master https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
-```
-
-## TO REMOVE:
-- https://github.com/udima-university/moodle-mod_jitsi
-```bash
-git submodule add -b master https://github.com/udima-university/moodle-mod_jitsi.git mod/jitsi
-```
-
-- https://github.com/bynare/moodle-enrol_auto
-```bash
-git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/auto
 ```
 
 ## Wait for it
@@ -345,7 +343,7 @@ git submodule add -b master https://github.com/dthies/moodle-atto_fullscreen.git
 git submodule add -b master https://github.com/moodle-ead/atto_justify.git lib/editor/atto/plugins/justify
 ```
 
-
+### OTHERS - REMOVED!
 - https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group
 ```bash
 git submodule add -b master https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group.git mod/quiz/report/group
