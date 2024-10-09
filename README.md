@@ -250,6 +250,11 @@ git submodule add -b main https://github.com/moodlehq/moodle-tool_migratehvp2h5p
 git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_trigger.git admin/tool/trigger
 ```
 
+- https://github.com/moodle-an-hochschulen/moodle-tool_redis
+```bash
+git submodule add -b MOODLE_404_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
+```
+
 ### ENROL
 
 - https://github.com/bobopinna/moodle-enrol_autoenrol
