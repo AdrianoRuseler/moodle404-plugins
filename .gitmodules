@@ -214,3 +214,7 @@
 	path = moodle/theme/adaptable
 	url = https://github.com/gjbarnard/moodle-theme_adaptable.git
 	branch = MOODLE_404
+[submodule "moodle/admin/tool/redis"]
+	path = moodle/admin/tool/redis
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
+	branch = MOODLE_404_STABLE
