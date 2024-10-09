@@ -284,7 +284,7 @@ git submodule add -b FORMAT_ETASK_24_STABLE https://gitlab.com/drlikm/format_eta
 
 - https://github.com/gjbarnard/moodle-theme_adaptable
 ```bash
-git submodule add -b main https://github.com/gjbarnard/moodle-theme_adaptable.git theme/adaptable
+git submodule add -b MOODLE_404 https://github.com/gjbarnard/moodle-theme_adaptable.git theme/adaptable
 ```
 
 - https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
