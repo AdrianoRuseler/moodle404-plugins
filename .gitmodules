@@ -202,10 +202,6 @@
 	path = moodle/mod/jitsi
 	url = https://github.com/udima-university/moodle-mod_jitsi.git
 	branch = master
-[submodule "moodle/theme/adaptable"]
-	path = moodle/theme/adaptable
-	url = https://github.com/gjbarnard/moodle-theme_adaptable.git
-	branch = main
 [submodule "moodle/local/sandbox"]
 	path = moodle/local/sandbox
 	url = https://github.com/moodleuulm/moodle-local_sandbox.git
