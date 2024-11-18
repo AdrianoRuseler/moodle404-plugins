@@ -218,3 +218,7 @@
 	path = moodle/admin/tool/redis
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
 	branch = MOODLE_404_STABLE
+[submodule "moodle/admin/tool/opcache"]
+	path = moodle/admin/tool/opcache
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
+	branch = MOODLE_405_STABLE
