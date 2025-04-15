@@ -222,3 +222,7 @@
 	path = moodle/report/allbackups
 	url = https://github.com/catalyst/moodle-report_allbackups.git
 	branch = MOODLE_404_STABLE
+[submodule "moodle/rfilter/ace_inline"]
+	path = moodle/rfilter/ace_inline
+	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
+	branch = main
