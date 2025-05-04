@@ -2,7 +2,7 @@ name: Update Submodules
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0 4 * * *' # Runs daily at midnight UTC
   workflow_dispatch: # Allows manual trigger
 
 jobs:
@@ -29,6 +29,19 @@ jobs:
           git submodule init
           # Try fetching specific branch if needed
           git submodule foreach 'git fetch origin || true'
+
+      - name: Download Moodle version file
+        run: |
+          for i in {1..3}; do
+            wget -q https://raw.githubusercontent.com/moodle/moodle/MOODLE_404_STABLE/version.php -O version.php && break
+            echo "Download failed, retrying ($i/3)..."
+            sleep 5
+          done
+          if [ ! -s version.php ]; then
+            echo "Failed to download Moodle version file after 3 attempts"
+            exit 1
+          fi
+        shell: bash
 
       - name: Check for changes
         id: check_changes
