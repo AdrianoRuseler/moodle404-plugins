@@ -2,7 +2,7 @@ name: Update Submodules
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Runs daily at 4 UTC
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
   workflow_dispatch: # Allows manual trigger
 
 jobs:
@@ -23,8 +23,13 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --remote --merge
-          
+          # Attempt to update submodules, continue even if some fail
+          git submodule update --remote --merge || echo "Submodule update failed, proceeding..."
+          # Ensure submodules are initialized
+          git submodule init
+          # Try fetching specific branch if needed
+          git submodule foreach 'git fetch origin || true'
+
       - name: Check for changes
         id: check_changes
         run: |
