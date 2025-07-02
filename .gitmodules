@@ -222,3 +222,7 @@
 	path = moodle/rfilter/ace_inline
 	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
 	branch = main
+[submodule "moodle/admin/tool/coursearchiver"]
+	path = moodle/admin/tool/coursearchiver
+	url = https://github.com/Syxton/moodle-tool_coursearchiver.git
+	branch = 4.x-4.5-branch
